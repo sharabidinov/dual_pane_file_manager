@@ -1,2 +1,2 @@
 # console-file-manager
-Console file manager tool like Far Manager
+Dual pane file manager tool like Far Manager
