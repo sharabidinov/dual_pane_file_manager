@@ -59,7 +59,6 @@ public class Viewer extends JFrame {
     createUI();
 
     refreshDirectoryListing(leftFileTable, leftCurrentDirectory, leftStatusBar);
-    refreshDirectoryListing(rightFileTable, rightCurrentDirectory, rightStatusBar);
 
     setActivePanel(leftFileTable, leftStatusBar);
 
