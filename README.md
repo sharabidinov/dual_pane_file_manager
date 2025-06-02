@@ -41,7 +41,7 @@ java -jar dual-pane-file-manager.jar
 | Shift+F6 | Rename file/directory |
 | F7 | Create new directory |
 | F8 | Delete file/directory |
-| Cmd+O (Mac) / Ctrl+O (Windows/Linux) | Open terminal in current directory |
+| Cmd+O | Open terminal in current directory |
 | Esc | Exit application |
 
 ## Project Structure
@@ -73,7 +73,10 @@ To build the project from source, you need JDK 17 or higher:
 
 ```bash
 javac *.java
-jar cvfm dual-pane-file-manager.jar Manifest.txt *.class
+touch MANIFEST.MF
+// You have to enter next value to MANIFEST.MF via text editor
+// Main-Class: Main
+jar cvfm dual-pane-file-manager.jar Manifest. *.class
 ```
 
 ## License
